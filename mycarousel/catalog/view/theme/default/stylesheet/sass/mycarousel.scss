@@ -1,0 +1,41 @@
+@import "fonts.sсss"
+#carousel_my.owl-carousel {
+	display: block;
+}
+#carousel_my .img-responsive {
+			width: auto;
+			max-height: 250px;
+			margin: 0 auto;
+			opacity: 0.5;
+			&:hover {
+				opacity: 1;
+			}
+		
+}
+#carousel_my .img-responsive:hover {
+				opacity: 1;
+			}
+		
+
+
+@media (min-width: 992px) {
+	.mc.text-center {
+		font-family: 'Verdana';
+		font-size: 32px;
+		color: #e88100;
+	}
+}
+@media (min-width: 375px) and (max-width: 991px) {
+	.mc.text-center {
+		font-family: 'Impact';
+		font-size: 16px;
+		color: #8c8c8c;
+	}
+}
+@media screen and (max-width: 374px) {
+	.mc.text-center {
+		font-family: 'Impact';
+		font-size: 12px;
+		color: #8c8c8c;
+	}
+}
